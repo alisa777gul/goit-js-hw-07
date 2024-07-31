@@ -7,12 +7,13 @@ btnCreate.addEventListener("click", (event) => {
  const amount = parseInt(inputNumber.value, 10);
   if (amount > 0 && amount <= 100) {
     createBoxes(amount);
+    inputNumber.value = ''; 
   }
+  
 })
 
+
  btnDestroy.addEventListener("click", destroyBoxes);
-
-
 
 
 function createBoxes(amount) {
