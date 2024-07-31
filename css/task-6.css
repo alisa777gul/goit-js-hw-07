@@ -1,0 +1,111 @@
+#controls{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+flex-direction: row;
+background: #f6f6fe;
+padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+input{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+   
+        border: 1px solid #808080;
+            border-radius: 8px;
+            padding: 8px 0;
+            max-width: 150px;
+    padding-left: 70px;
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #2e2f42;
+            transition: border 2s;
+}
+
+input:hover,
+input:focus {
+    border: 1px solid #000;
+
+}
+
+input:active {
+    border: 1px solid #808080;
+
+}
+
+.button-1 {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+       border-radius: 8px;
+        padding: 8px 16px;
+        min-width: 120px;
+        
+      background: #4e75ff;
+      border: none;
+      display: block;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 2s;
+}
+
+.button-1:hover,
+.button-1:focus {
+    background-color: #6c8cff;
+}
+
+.button-2{
+   display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+        border-radius: 8px;
+        padding: 8px 16px;
+        min-width: 120px;
+       
+    background: #ff4e4e;
+    border: none;
+        display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        cursor: pointer;
+ transition: background-color 2s;
+ }
+
+ .button-2:hover,
+ .button-2:focus {
+     background-color: #ff7070;
+ }
+
+#boxes{
+    display: flex;
+    flex-direction: row;
+background: #f6f6fe;
+gap: 44px;
+margin-top: 16px;
+padding-top: 32px;
+padding-bottom: 32px;
+flex-wrap: wrap;
+padding-left: 32px;
+padding-right: 32px;
+justify-content: center;
+align-items: center;
+}
+
+
